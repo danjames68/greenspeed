@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://hola/hola.yaml',
-    'modified' => 1555009894,
+    'modified' => 1555160318,
     'data' => [
         'enabled' => true,
         'custom_logo' => [

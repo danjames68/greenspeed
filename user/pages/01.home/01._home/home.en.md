@@ -7,11 +7,11 @@ visible: true
 background: hero-bg02.jpg
 bannerOpacity: '0.3'
 button1Text: 'Green?'
-button1Link: '#works'
+button1Link: '#green'
 button2Text: 'Speed?'
-button2Link: '#about'
+button2Link: '#speed'
 button3Text: 'Scroll Down'
-button3Link: '#about'
+button3Link: '#green'
 
 ---
 

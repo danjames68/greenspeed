@@ -1,7 +1,7 @@
 ---
 title: 'Green?'
 smallTitle: 'What is so important about Green Websites'
-menu: 'Why Green?'
+menu: 'green'
 visible: true
 row:
     -

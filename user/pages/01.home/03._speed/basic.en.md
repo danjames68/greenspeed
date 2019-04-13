@@ -1,7 +1,7 @@
 ---
 title: 'Speed?'
 smallTitle: 'What is so important about Fast Websites'
-menu: 'Why Fast?'
+menu: 'speed'
 visible: true
 row:
     -
