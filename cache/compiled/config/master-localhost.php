@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1555160638,
-    'checksum' => 'cc3e25cd12656831e466eb46170c097d',
+    'timestamp' => 1555166081,
+    'checksum' => '3ea7966739cbc8f1c17d9eca7bb936ae',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1555160317
+                'modified' => 1555166047
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
@@ -80,6 +80,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1555160318
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1555166046
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -193,6 +197,9 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'devtools' => [
+                'enabled' => true
             ],
             'error' => [
                 'enabled' => true,

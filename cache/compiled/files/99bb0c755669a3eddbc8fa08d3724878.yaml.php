@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://email/email.yaml',
-    'modified' => 1555158795,
+    'modified' => 1555160317,
     'data' => [
         'enabled' => true,
         'from' => NULL,
