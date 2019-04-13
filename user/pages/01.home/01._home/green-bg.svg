@@ -4,8 +4,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="8503.94px" height="5825.2px" viewBox="0 0 8503.94 5825.2" enable-background="new 0 0 8503.94 5825.2"
 	 xml:space="preserve">
-<rect x="-340" y="-174" fill="#FFFFFF" width="9440" height="2402.69"/>
-<rect x="-191.277" y="2228.69" fill="#B9D989" width="9414.285" height="3350"/>
+<rect x="-364.455" y="-334" fill="#FFFFFF" width="9440" height="3397.711"/>
 <g>
 	<polygon fill="#B9D989" points="5931.723,999.292 5888.369,999.292 5868.096,2407.863 5947.025,2407.863 	"/>
 	<g>
@@ -60,4 +59,5 @@
 	</g>
 	<ellipse fill="#83A656" cx="3665.936" cy="1346.478" rx="12.282" ry="11.844"/>
 </g>
+<rect x="-191.277" y="2228.69" fill="#92CD8B" width="9414.285" height="3350"/>
 </svg>

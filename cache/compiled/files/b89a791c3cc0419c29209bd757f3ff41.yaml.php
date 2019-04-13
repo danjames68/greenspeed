@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/greenspeed/user/config/themes/hola.yaml',
-    'modified' => 1555160317,
+    'modified' => 1555166500,
     'data' => [
-        'enabled' => true,
+        'enabled' => false,
         'custom_logo' => [
             'user/themes/hola/images/logo/logo.png' => [
                 'name' => 'logo.png',

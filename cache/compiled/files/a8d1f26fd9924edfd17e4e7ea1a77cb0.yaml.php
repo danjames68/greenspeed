@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/greenspeed/user/config/system.yaml',
-    'modified' => 1555166047,
+    'modified' => 1555167060,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -29,7 +29,7 @@ return [
             'hide_in_urls' => false
         ],
         'pages' => [
-            'theme' => 'hola',
+            'theme' => 'greenspeed',
             'order' => [
                 'by' => 'default',
                 'dir' => 'asc'

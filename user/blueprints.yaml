@@ -1,11 +1,11 @@
-name: Hola Site
+name: GreenSpeed Site
 version: 1.1.2
-description: Hola skeleton based on Hola theme is a sample vCard website content. 
+description: A fast flat-file site based on Hola theme and built with Grav. 
 icon:  id-card-o
 author:
-  name: Devlom
-  email: info@devlom.com
-  url: https://devlom.com
+  name: Danjames68  
+  email: danjames68@me.com
+  url: https://greenspeed.co.uk
 homepage: https://devlom.com/en/blog/hola-stylish-grav-theme
 demo: http://demo.devlom.com/grav/hola/
 keywords: hola, theme, styleshout, vcard, devlom, responsive, html5, css3, skeleton

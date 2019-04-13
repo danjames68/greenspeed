@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1555166081,
-    'checksum' => '3ea7966739cbc8f1c17d9eca7bb936ae',
+    'timestamp' => 1555167063,
+    'checksum' => '8a3233733c745136b7fd791d0428bb5d',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,11 +31,15 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1555166047
+                'modified' => 1555167060
+            ],
+            'themes/greenspeed' => [
+                'file' => 'user/config/themes/greenspeed.yaml',
+                'modified' => 1555166493
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
-                'modified' => 1555160317
+                'modified' => 1555166500
             ]
         ],
         'system/config' => [
@@ -53,7 +57,7 @@ return [
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1555160316
+                'modified' => 1555166397
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
@@ -727,7 +731,7 @@ node_modules'
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'hola',
+                'theme' => 'greenspeed',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -908,8 +912,22 @@ node_modules'
             
         ],
         'themes' => [
-            'hola' => [
+            'greenspeed' => [
                 'enabled' => true,
+                'custom_logo' => [
+                    'user/themes/greenspeed/images/logo/logo.png' => [
+                        'name' => 'logo.png',
+                        'type' => 'image/png',
+                        'size' => 5238,
+                        'path' => 'user/themes/greenspeed/images/logo/logo.png'
+                    ]
+                ],
+                'footer-text' => '© Copyright Greenspeed 2018',
+                'footer-design' => 'copyright',
+                'footer-additional-text' => 'further text'
+            ],
+            'hola' => [
+                'enabled' => false,
                 'custom_logo' => [
                     'user/themes/hola/images/logo/logo.png' => [
                         'name' => 'logo.png',
