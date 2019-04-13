@@ -1,6 +1,6 @@
 ---
-title: 'Green?'
-smallTitle: 'What is so important about Green Websites'
+title: 'Who for'
+smallTitle: 'Is your website fast enough?'
 menu: 'green'
 visible: true
 row:

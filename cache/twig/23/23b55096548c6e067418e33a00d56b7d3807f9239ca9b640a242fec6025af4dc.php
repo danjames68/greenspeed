@@ -129,6 +129,6 @@ class __TwigTemplate_ecf7c094f04428198752ea1071a81a69abd85ea877ee4ee883bedba6546
 
     public function getSourceContext()
     {
-        return new Source("", "partials/footer.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/partials/footer.html.twig");
+        return new Source("", "partials/footer.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/partials/footer.html.twig");
     }
 }

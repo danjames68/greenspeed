@@ -16,10 +16,10 @@ sitemap:
     changefreq: monthly
     priority: 1.03
 feed:
-    description: 'Blog news'
+    description: 'Green Website news'
     limit: 0
 pagination: true
-visible: false
+visible: true
 
 ---
 
