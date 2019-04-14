@@ -49,6 +49,7 @@
  *      ## blog page header
  *      ## blog content
  *      ## comments
+ *      ## image captions
  *
  * =================================================================== */
 
@@ -1660,7 +1661,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav li a {
     display: block;
     line-height: 72px;
-    color: whitesmoke);
+    color: whitesmoke;
 }
 
 .header-nav li.current a {
@@ -4464,6 +4465,7 @@ font-size: 14px;
      position: relative;
      width: 100%;
      -ms-touch-action: pan-y;
+     touch-action: pan-y;
  }
  .owl-carousel .owl-wrapper {
      display: none;
@@ -4660,4 +4662,13 @@ font-size: 14px;
     .commentlist .comment__avatar {
         display: none;
     }
+}
+/* --------------------------------------------------
+ * image caption fix
+ *---------------------------------------------------*/
+img + br + em {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
 }

@@ -23,6 +23,9 @@ Firstly, you may *feel* your website is slow but how can you make sure it's slow
 
 1.[Google's Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) is a great place to start. If you plug-in your domain name it will give you a score for mobile users and for desktop users. It also gives a series of recommendations to speed your site up.
 
+![PageSpeed Insights](page-speed-insights.png)
+*This is PageSpeed's analysis of FaceBook's performance*
+
 2.[Pingdom](http://tools.pingdom.com/fpt/) is also very good and with give you a waterfall loading scheme of the times the various parts of your website take to load, and advice on what to tackle to speed it up/
 
 Both these tools will give you a list of issues to address. Some of them can be tackled by a beginner, others may need expert help. Here is a list of which things to start tackling:
@@ -40,6 +43,9 @@ That said, let's move onto the site itself:
 Everytime somebody asks to see your site their browser will send a request to the server. Each of these requests - that can be an image, or a css or js file -  has to be processed and takes up a little time. The size of the file also determines the response time so bundling everything into one big file is not the answer. To do it well takes a little time - google normally advocate prioritising data needed for showing the visitors the top fo the page - the so-called "above the fold".
 
 [Pingdom](http://tools.pingdom.com/fpt/) will give you a list of of all the HTTP requests your page makes and you can quickly find the main culprits.
+
+![Pingdom Cascading Load Sheet](pingdom-facebook.png)
+*Pingdom's cascading loading schema for FaceBook*
 
 It's worth remembering that every exciting bell and whistle comes with a script to run it, and an HTTP request to go with it. Each one of those requests will slow the page load. Here are some examples of external requests:
 
