@@ -110,7 +110,26 @@ class __TwigTemplate_44eebd665a49debdd43a28ca15252cfacef7581922bfb01a8ac1c70853f
         // line 35
         echo "
         </div> <!-- /services-list -->
+        
     </div>
+    <div class=\"service-content__buttons\">
+                ";
+        // line 40
+        if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", [])) {
+            // line 41
+            echo "                    <a href=\"";
+            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Link", []);
+            echo "\" class=\"smoothscroll btn btn--stroke\">
+                        ";
+            // line 42
+            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", []);
+            echo "
+                    </a>
+                ";
+        }
+        // line 44
+        echo "   
+     </div>
 
 </section>
 ";
@@ -128,7 +147,7 @@ class __TwigTemplate_44eebd665a49debdd43a28ca15252cfacef7581922bfb01a8ac1c70853f
 
     public function getDebugInfo()
     {
-        return array (  111 => 35,  99 => 29,  95 => 28,  90 => 26,  85 => 23,  81 => 22,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  55 => 10,  49 => 8,  47 => 7,  39 => 2,  30 => 1,);
+        return array (  131 => 44,  125 => 42,  120 => 41,  118 => 40,  111 => 35,  99 => 29,  95 => 28,  90 => 26,  85 => 23,  81 => 22,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  55 => 10,  49 => 8,  47 => 7,  39 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -141,6 +160,6 @@ class __TwigTemplate_44eebd665a49debdd43a28ca15252cfacef7581922bfb01a8ac1c70853f
 
     public function getSourceContext()
     {
-        return new Source("", "modular/services.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/modular/services.html.twig");
+        return new Source("", "modular/services.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/modular/services.html.twig");
     }
 }

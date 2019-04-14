@@ -1482,7 +1482,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #44ec84b9 !important;
+    background-color: #dcecf0d2 !important;
     opacity: 0;
     visibility: hidden;
     z-index: 600;
@@ -3237,7 +3237,7 @@ html.no-csstransitions .home-content__main {
 .contact__form input[type="tel"],
 .contact__form input[type="url"],
 .contact__form textarea {
-    background-color: transparent;
+    background-color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: .9rem;
     color: rgba(255, 255, 255, 0.75);
@@ -4606,6 +4606,32 @@ font-size: 14px;
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: #862121;
+}
+
+.service-content__buttons {
+    position: relative;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: 50px;
+    bottom: 2.1rem;
+    text-align: center;
+}
+
+.service-content__buttons .btn {
+    display: block;
+    width: 210px;
+    border-color: black;
+    color: black;
+    margin: 1.5rem 0 0 0;
+    letter-spacing: .25rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.sevice-content__buttons .btn:hover,
+.service-content__buttons .btn:focus {
+    background: #FFFFFF !important;
+    color: #000000;
 }
 /* -------------------------------------------------------------------
  * grey section

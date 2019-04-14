@@ -1,5 +1,5 @@
 ---
-title: 'Say Hello.'
+title: 'Ask us for a quote'
 media_order: contact-bg.jpg
 smallTitle: Contact
 menu: contact
@@ -31,20 +31,27 @@ form:
             outerclasses: form-field
             classes: full-width
         -
-            name: subject
+            name: phone
             label: false
             type: text
-            placeholder: Subject
+            placeholder: Contact Phone
             outerClasses: form-field
             classes: full-width
         -
             name: message
             label: false
-            placeholder: Message
+            placeholder: Message. Please include whether you have an existing website.
             type: textarea
             outerclasses: form-field
             classes: full-width
             rows: null
+        -
+            name: website
+            label: false
+            type: text
+            placeholder: Existing Site (if applicable)
+            outerClasses: form-field
+            classes: full-width
     buttons:
         -
             type: submit
@@ -64,4 +71,4 @@ form:
             message: 'Thank you for you''re message! We will contact you shortly'
 ---
 
-Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.
+We build websites for small businesses and charities interested in greening their digital carbon footprint. We stay local, concentrating on the London area and surroundings. 

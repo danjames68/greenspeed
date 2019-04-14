@@ -3,6 +3,8 @@ title: 'What we do and why'
 smallTitle: Services
 menu: services
 visible: true
+button1Text: 'Contact Us'
+button1Link: '#contact'
 services:
     -
         icon: 'fa fa-code'
