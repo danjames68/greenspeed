@@ -83,40 +83,40 @@ class __TwigTemplate_d81e6f7b197f5178f840e0093d84a03e58b6dc609341e6e23d35c10ed6f
         <div class=\"col-four tab-full contact__infos\">
             <h4 class=\"h06\">";
         // line 31
-        echo $this->getAttribute(($context["header"] ?? null), "phoneTitle", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "phoneTitle", []);
         echo "</h4>
             <p>";
         // line 32
-        echo $this->getAttribute(($context["header"] ?? null), "phonePhone", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "phonePhone", []);
         echo "<br>
                 ";
         // line 33
-        echo $this->getAttribute(($context["header"] ?? null), "phoneMobile", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "phoneMobile", []);
         echo "<br>
                 ";
         // line 34
-        echo $this->getAttribute(($context["header"] ?? null), "phoneFax", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "phoneFax", []);
         echo "
             </p>
 
             <h4 class=\"h06\">";
         // line 37
-        echo $this->getAttribute(($context["header"] ?? null), "emailTitle", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "emailTitle", []);
         echo "</h4>
             <p>";
         // line 38
-        echo twig_replace_filter($this->getAttribute(($context["header"] ?? null), "emailAddress", []), ["," => "<br>"]);
+        echo twig_replace_filter($this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "emailAddress", []), ["," => "<br>"]);
         echo "
             </p>
 
             <h4 class=\"h06\">";
         // line 41
-        echo $this->getAttribute(($context["header"] ?? null), "addressTitle", []);
+        echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "addressTitle", []);
         echo "</h4>
             <p>
                 ";
         // line 43
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($this->getAttribute(($context["header"] ?? null), "addressDetails", []));
+        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($this->getAttribute($this->getAttribute(($context["site"] ?? null), "contact", []), "addressDetails", []));
         echo "
             </p>
         </div>
@@ -174,6 +174,6 @@ class __TwigTemplate_d81e6f7b197f5178f840e0093d84a03e58b6dc609341e6e23d35c10ed6f
 
     public function getSourceContext()
     {
-        return new Source("", "modular/contact.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/modular/contact.html.twig");
+        return new Source("", "modular/contact.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/modular/contact.html.twig");
     }
 }

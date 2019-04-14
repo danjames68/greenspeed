@@ -14,3 +14,11 @@ social:
         socialIconClass: 'fa fa-twitter'
         socialIconText: Twitter
         socialIconLink: 'https://twitter.com/devlomthemes'
+        
+contact:
+    phoneTitle: Phone
+    phonePhone: 'Uk mobile: 07510 047761'
+    emailTitle: Email
+    emailAddress: 'info@greenspeed.co.uk'
+    addressTitle: Address
+    addressDetails: "Unit 5, 30 Friern Park/nNorth London/nN12 9DA"

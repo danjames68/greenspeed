@@ -28,19 +28,19 @@
 
         </div>
         <div class="col-four tab-full contact__infos">
-            <h4 class="h06">{{ header.phoneTitle }}</h4>
-            <p>{{ header.phonePhone }}<br>
-                {{ header.phoneMobile }}<br>
-                {{ header.phoneFax }}
+            <h4 class="h06">{{ site.contact.phoneTitle }}</h4>
+            <p>{{ site.contact.phonePhone }}<br>
+                {{ site.contact.phoneMobile }}<br>
+                {{ site.contact.phoneFax }}
             </p>
 
-            <h4 class="h06">{{ header.emailTitle }}</h4>
-            <p>{{ header.emailAddress|replace({',': '<br>'}) }}
+            <h4 class="h06">{{ site.contact.emailTitle }}</h4>
+            <p>{{ site.contact.emailAddress|replace({',': '<br>'}) }}
             </p>
 
-            <h4 class="h06">{{ header.addressTitle }}</h4>
+            <h4 class="h06">{{ site.contact.addressTitle }}</h4>
             <p>
-                {{ header.addressDetails|markdown }}
+                {{ site.contact.addressDetails|markdown }}
             </p>
         </div>
 

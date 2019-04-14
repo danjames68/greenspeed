@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/greenspeed/user/config/site.yaml',
-    'modified' => 1555160317,
+    'modified' => 1555234348,
     'data' => [
         'title' => 'Fast Eco-Friendly Websites based in Energy Efficient UK based servers',
         'author' => [
@@ -28,6 +28,14 @@ return [
                 'socialIconText' => 'Twitter',
                 'socialIconLink' => 'https://twitter.com/devlomthemes'
             ]
+        ],
+        'contact' => [
+            'phoneTitle' => 'Phone',
+            'phonePhone' => 'Uk mobile: 07510 047761',
+            'emailTitle' => 'Email',
+            'emailAddress' => 'info@greenspeed.co.uk',
+            'addressTitle' => 'Address',
+            'addressDetails' => 'Unit 5, 30 Friern Park/nNorth London/nN12 9DA'
         ]
     ]
 ];
