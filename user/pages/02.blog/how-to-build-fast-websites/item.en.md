@@ -1,18 +1,17 @@
 ---
-title: 'Get Started With Web Typography.'
+title: 'How to build fast websites'
 media_order: 'blog-06-bg.jpg,logo-drawings.jpg'
 lead: "Gallia est omnis divisa in partes tres, quarum. Donec sed odio operae, eu vulputate felis rhoncus. Quam temere in vitiis, legem sancimus haerentia. Ab illo tempore, ab est sed immemorabili.\r\nContra legem facit qui id facit quod lex prohibet. Inmensae subtilitatis, obscuris et malesuada fames. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse. Curabitur est gravida et libero vitae dictum. Me non paenitet nullum festiviorem excogitasse ad hoc."
-date: '10-09-2017 11:21'
+date: '13-04-2019 11:21'
 taxonomy:
     category:
-        - typography
+        - site speed
     tag:
-        - etiamne
-        - orci
-        - amet
-        - lectus
+        - flat file
+        - cache
+        - server
     author:
-        - 'Ellen Swift'
+        - 'Dan James'
 hero_image: blog-06-bg.jpg
 continue_link: true
 ---
