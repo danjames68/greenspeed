@@ -14,4 +14,4 @@ button3Link: '#services'
 
 ---
 
-At GreenSpeed we build fast eco-friendly websites.
+At GreenSpeed we build fast eco-friendly websites in the UK.
