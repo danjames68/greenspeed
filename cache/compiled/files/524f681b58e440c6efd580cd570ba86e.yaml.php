@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/plugins/login/languages/no.yaml',
-    'modified' => 1555158791,
+    'modified' => 1555836606,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Brukernavn',

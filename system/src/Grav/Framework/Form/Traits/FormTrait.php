@@ -14,11 +14,15 @@ use Grav\Common\Data\Data;
 use Grav\Common\Data\ValidationException;
 use Grav\Common\Form\FormFlash;
 use Grav\Common\Grav;
+use Grav\Common\Twig\Twig;
 use Grav\Common\Utils;
+use Grav\Framework\ContentBlock\HtmlBlock;
 use Grav\Framework\Form\Interfaces\FormInterface;
-use Grav\Framework\Session\Session;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\UploadedFileInterface;
+use Twig\Error\LoaderError;
+use Twig\Error\SyntaxError;
+use Twig\TemplateWrapper;
 
 /**
  * Trait FormTrait
@@ -93,6 +97,11 @@ trait FormTrait
     public function getAction(): string
     {
         return '';
+    }
+
+    public function getTask(): string
+    {
+        return $this->getBlueprint()->get('form/task') ?? '';
     }
 
     public function getData(string $name = null)
@@ -309,27 +318,57 @@ trait FormTrait
     public function getFlash(): FormFlash
     {
         if (null === $this->flash) {
+            /** @var Grav $grav */
             $grav = Grav::instance();
-            $user = $grav['user'];
             $id = null;
 
-            $rememberState = $this->getBlueprint()->get('form/remember_state');
-            if ($rememberState === 'user') {
-                $id = $user->username;
+            $user = $grav['user'] ?? null;
+            if (isset($user)) {
+                $rememberState = $this->getBlueprint()->get('form/remember_state');
+                if ($rememberState === 'user') {
+                    $id = $user->username;
+                }
             }
 
-            // By default store flash by the session id.
-            if (null === $id) {
-                /** @var Session $session */
-                $session = $grav['session'];
-                $id = $session->getId();
-            }
+            // Session Required for flash form
+            $session = $grav['session'] ?? null;
+            if (isset($session)) {
+                // By default store flash by the session id.
+                if (null === $id) {
+                    $id = $session->getId();
+                }
 
-            $this->flash = new FormFlash($id, $this->getUniqueId(), $this->getName());
-            $this->flash->setUrl($grav['uri']->url)->setUser($user);
+
+                $this->flash = new FormFlash($id, $this->getUniqueId(), $this->getName());
+                $this->flash->setUrl($grav['uri']->url)->setUser($user);
+            }
         }
 
         return $this->flash;
+    }
+
+    /**
+     * {@inheritdoc}
+     * @see FormInterface::render()
+     */
+    public function render(string $layout = null, array $context = [])
+    {
+        if (null === $layout) {
+            $layout = 'default';
+        }
+
+        $grav = Grav::instance();
+
+        $block = HtmlBlock::create();
+        $block->disableCache();
+
+        $output = $this->getTemplate($layout)->render(
+            ['grav' => $grav, 'block' => $block, 'form' => $this, 'layout' => $layout] + $context
+        );
+
+        $block->setContent($output);
+
+        return $block;
     }
 
     protected function unsetFlash(): void
@@ -355,6 +394,27 @@ trait FormTrait
     protected function setError(string $error): void
     {
         $this->errors[] = $error;
+    }
+
+    /**
+     * @param string $layout
+     * @return TemplateWrapper
+     * @throws LoaderError
+     * @throws SyntaxError
+     */
+    protected function getTemplate($layout)
+    {
+        $grav = Grav::instance();
+
+        /** @var Twig $twig */
+        $twig = $grav['twig'];
+
+        return $twig->twig()->resolveTemplate(
+            [
+                "forms/{$layout}/form.html.twig",
+                'forms/default/form.html.twig'
+            ]
+        );
     }
 
     /**

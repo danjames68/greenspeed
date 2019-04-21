@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/plugins/email/languages.yaml',
-    'modified' => 1555158795,
+    'modified' => 1555836618,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [
