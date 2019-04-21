@@ -1,10 +1,9 @@
 ---
-title: 'Styleshout Recommends Dreamhost'
+title: 'D4S recommends Green Speed Host'
 hidemenu: true
-titleLink: 'http://www.dreamhost.com/r.cgi?287326|STYLESHOUT'
+titleLink: 'http://www.greenspeedhost.com'
 buttonText: 'Sign Up Now'
-buttonLink: 'http://www.dreamhost.com/r.cgi?287326|STYLESHOUT'
+buttonLink: 'http://www.greenspeedhost.com'
 ---
 
-Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
-                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
+Looking for a green and reliable webhost? Try <a href="http://www.greenspeedhost.com">Green Speed Host</a>.

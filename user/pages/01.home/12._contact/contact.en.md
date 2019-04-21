@@ -1,5 +1,5 @@
 ---
-title: 'Ask us for a quote'
+title: 'Ask us for a advice or a quote'
 media_order: contact-bg.jpg
 smallTitle: Contact
 menu: contact
@@ -71,4 +71,4 @@ form:
             message: 'Thank you for you''re message! We will contact you shortly'
 ---
 
-We build websites for small businesses and charities interested in greening their digital carbon footprint. We stay local, concentrating on the London area and surroundings. 
+We build websites for small businesses and charities interested in greening their digital carbon footprint.

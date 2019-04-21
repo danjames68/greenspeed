@@ -1,7 +1,7 @@
 ---
-title: 'Latest From The Blog.'
-smallTitle: Journal
-menu: Blog
+title: 'Find out more.'
+smallTitle: Technical Notes
+menu: Find out more
 subtitle: ''
 content:
     items:

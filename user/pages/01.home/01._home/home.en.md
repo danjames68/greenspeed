@@ -6,9 +6,9 @@ redirect: home
 visible: true
 bannerOpacity: '0.8'
 background: hero-bg03.jpg
-button1Text: 'Green?'
+button1Text: 'How to fix it'
 button1Link: '#green'
-button2Text: 'Speed?'
+button2Text: 'Find out more'
 button2Link: '#speed'
 button3Text: 'Scroll Down'
 button3Link: '#services'
