@@ -7,7 +7,7 @@ form:
       fields:
         holaSetings:
           type: tab
-          title: Hola Settings
+          title: GreenSpeed Settings
 
           fields:  
             bannerBackground:
@@ -27,6 +27,20 @@ form:
                 type: text
                 label: Overlay Opacity
                 description: Please use value between 0 and 1.
+
+            titles:
+              type: section
+              title: Home Page Text
+              underline: true
+
+            header.question:
+              type: text
+              label: The Home Page Rhetorical Question
+
+            header.statement:
+              type: text
+              label: the answer
+              description: A CTA about Green energy use or fast sites
               
             buttons:
               type: section

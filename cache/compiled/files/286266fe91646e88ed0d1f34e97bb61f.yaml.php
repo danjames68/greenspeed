@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/data/notifications/55d0404cbaae2749ac7a0c210fac37dd.yaml',
-    'modified' => 1555836524,
+    'modified' => 1555844392,
     'data' => [
-        'last_checked' => 1555836524,
+        'last_checked' => 1555844392,
         'data' => [
             'feed' => [
                 0 => [

@@ -45,57 +45,65 @@ class __TwigTemplate_1d09f980752fa82064a61e4cb4b5a40eae6b2939e8e867635fc0bfb61f0
 
         <div class=\"row home-content__main\">
 
-            <h3>";
-        // line 10
-        echo $this->getAttribute(($context["page"] ?? null), "title", []);
-        echo "</h3>
-
+            <h3>
+                ";
+        // line 11
+        echo $this->getAttribute(($context["header"] ?? null), "question", []);
+        echo "
+            </h3>
+            <h2>
+                ";
+        // line 14
+        echo $this->getAttribute(($context["header"] ?? null), "statement", []);
+        echo "
+            </h2>
+        
             <h1>
                 ";
-        // line 13
+        // line 18
         echo ($context["content"] ?? null);
         echo "
             </h1>
 
             <div class=\"home-content__buttons\">
                 ";
-        // line 17
+        // line 22
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", [])) {
-            // line 18
+            // line 23
             echo "                    <a href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Link", []);
             echo "\" class=\"smoothscroll btn btn--stroke\">
                         ";
-            // line 19
+            // line 24
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", []);
             echo "
                     </a>
                 ";
         }
-        // line 22
+        // line 27
         echo "                ";
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button2Text", [])) {
-            // line 23
+            // line 28
             echo "                    <a href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button2Link", []);
             echo "\" class=\"smoothscroll btn btn--stroke\">
                         ";
-            // line 24
+            // line 29
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button2Text", []);
             echo "
                     </a>
                 ";
         }
-        // line 27
+        // line 32
         echo "            </div>
 
             <div class=\"home-content__scroll\">
                 <a href=\"";
-        // line 30
+        // line 35
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button3Link", []);
         echo "\" class=\"scroll-link smoothscroll\">
                     <span>";
-        // line 31
+        // line 36
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button3Text", []);
         echo "</span>
                 </a>
@@ -105,27 +113,27 @@ class __TwigTemplate_1d09f980752fa82064a61e4cb4b5a40eae6b2939e8e867635fc0bfb61f0
 
     </div> <!-- end home-content -->
     ";
-        // line 38
+        // line 43
         if ($this->getAttribute(($context["site"] ?? null), "social", [])) {
-            // line 39
+            // line 44
             echo "        <ul class=\"home-social\">
             ";
-            // line 40
+            // line 45
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["site"] ?? null), "social", []));
             foreach ($context['_seq'] as $context["_key"] => $context["icon"]) {
-                // line 41
+                // line 46
                 echo "                <li>
                     <a href=\"";
-                // line 42
+                // line 47
                 echo $this->getAttribute($context["icon"], "socialIconLink", []);
                 echo "\">
                         <i class=\"";
-                // line 43
+                // line 48
                 echo $this->getAttribute($context["icon"], "socialIconClass", []);
                 echo "\" aria-hidden=\"true\"></i>
                         <span>";
-                // line 44
+                // line 49
                 echo $this->getAttribute($context["icon"], "socialIconText", []);
                 echo "</span></a>
                 </li>
@@ -134,11 +142,11 @@ class __TwigTemplate_1d09f980752fa82064a61e4cb4b5a40eae6b2939e8e867635fc0bfb61f0
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['icon'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 47
+            // line 52
             echo "        </ul> <!-- end home-social -->
     ";
         }
-        // line 49
+        // line 54
         echo "
 </section> <!-- end s-home -->";
     }
@@ -155,7 +163,7 @@ class __TwigTemplate_1d09f980752fa82064a61e4cb4b5a40eae6b2939e8e867635fc0bfb61f0
 
     public function getDebugInfo()
     {
-        return array (  142 => 49,  138 => 47,  129 => 44,  125 => 43,  121 => 42,  118 => 41,  114 => 40,  111 => 39,  109 => 38,  99 => 31,  95 => 30,  90 => 27,  84 => 24,  79 => 23,  76 => 22,  70 => 19,  65 => 18,  63 => 17,  56 => 13,  50 => 10,  39 => 2,  30 => 1,);
+        return array (  150 => 54,  146 => 52,  137 => 49,  133 => 48,  129 => 47,  126 => 46,  122 => 45,  119 => 44,  117 => 43,  107 => 36,  103 => 35,  98 => 32,  92 => 29,  87 => 28,  84 => 27,  78 => 24,  73 => 23,  71 => 22,  64 => 18,  57 => 14,  51 => 11,  39 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
