@@ -167,7 +167,7 @@ class __TwigTemplate_73f5ea740ed102307113347e5c769e615aee6d74a29365c8974b07a029f
             echo "                                <a class=\"button\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "nextSibling", []), "url", []);
             echo "\">
-                                    <span>Next Post</span>";
+                                    <span>Next Article</span>";
             // line 64
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "nextSibling", []), "title", []);
             echo "</a>
@@ -183,7 +183,7 @@ class __TwigTemplate_73f5ea740ed102307113347e5c769e615aee6d74a29365c8974b07a029f
             echo "                                <a class=\"button\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "prevSibling", []), "url", []);
             echo "\">
-                                    <span>Previus Post</span>
+                                    <span>Previous Article</span>
                                     ";
             // line 71
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "prevSibling", []), "title", []);
@@ -199,7 +199,7 @@ class __TwigTemplate_73f5ea740ed102307113347e5c769e615aee6d74a29365c8974b07a029f
         // line 77
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "parent", []), "url", [], "method");
         echo "\" class=\"btn btn--primary\">
-                            View All Post
+                            View All Articles
                         </a>
                     </div>
                 </div>
@@ -237,6 +237,6 @@ class __TwigTemplate_73f5ea740ed102307113347e5c769e615aee6d74a29365c8974b07a029f
 
     public function getSourceContext()
     {
-        return new Source("", "item.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/item.html.twig");
+        return new Source("", "item.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/item.html.twig");
     }
 }

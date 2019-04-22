@@ -61,13 +61,13 @@
                         <div class="blog-content__prev">
                             {% if not page.isFirst %}
                                 <a class="button" href="{{ page.nextSibling.url }}">
-                                    <span>Next Post</span>{{ page.nextSibling.title }}</a>
+                                    <span>Next Article</span>{{ page.nextSibling.title }}</a>
                             {% endif %}
                         </div>
                         <div class="blog-content__next">
                             {% if not page.isLast %}
                                 <a class="button" href="{{ page.prevSibling.url }}">
-                                    <span>Previus Post</span>
+                                    <span>Previous Article</span>
                                     {{ page.prevSibling.title }}</a>
                             {% endif %}
                         </div>
@@ -75,7 +75,7 @@
 
                     <div class="blog-content__all">
                         <a href="{{ page.parent.url() }}" class="btn btn--primary">
-                            View All Post
+                            View All Articles
                         </a>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 /* ===================================================================
  *
  *  Greenspeed - based on Hola v1.0 Main Stylesheet
- *  10-02-2017
+ *  10-04-2019
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -84,7 +84,7 @@ html, body {
 }
 
 body {
-    background: #0a0809;
+    background: #0D7680;
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
@@ -1460,7 +1460,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header {
     width: 100%;
     height: 75px;
-    background-color:  whitesmoke;
+    background-color: rgb(242, 223, 206);
     opacity: 0.75;
     position: absolute;
     top: 0;
@@ -1484,7 +1484,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: whitesmoke;
+    background-color: rgb(242, 223, 206);
     opacity: 1;
     visibility: hidden;
     z-index: 600;
@@ -1607,14 +1607,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle.is-clicked span {
-    background-color: whitesmoke;
+    background-color: rgb(242,223,206);
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-    background-color: whitesmoke;
+    background-color: rgb(242, 223, 206);
 }
 
 .header-menu-toggle.is-clicked span::before {
@@ -1687,7 +1687,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         right: auto;
         top: 0;
         left: 0;
-        background-color: whitesmoke;
+        background-color: rgb(242, 223, 206);
         padding: 120px 40px 21px;
     }
     .header-nav-wrap .header-nav {
@@ -1800,7 +1800,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 210px;
     border-color: rgb(204, 200, 200);
-    color: rgb(46, 45, 45);
+    color: rgb(228, 225, 225);
     background-color: #FFFFFF;
     margin: 1.5rem 0 0 0;
     letter-spacing: .25rem;
@@ -3316,12 +3316,12 @@ footer a:hover, footer a:focus {
  * ------------------------------------------------------------------- */
 
 article.blog-single {
-    background-color: #FFFFFF;
+    background-color: floralwhite;
 }
 
 article.blog-single .blog-content {
-    padding-top: 5.2rem;
-    padding-bottom: 7rem;
+    padding-top: 4.2rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -3330,30 +3330,30 @@ article.blog-single .blog-content {
  * ------------------------------------------------------------------- */
 
 .page-header {
-    background-color: #0D0A0B;
+    background-color: floralwhite;
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 20.4rem;
-    padding-bottom: 7.2rem;
+    padding-top: 10.4rem;
+    padding-bottom: 5.2rem;
     position: relative;
     color: rgba(255, 255, 255, 0.5);
-    min-height: 50.4rem;
+    min-height: 20.4rem;
 }
 .small-page-header {
-    background-color: #0D0A0B;
+    background-color: floralwhite;
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 15.4rem;
-    padding-bottom: 5.2rem;
+    padding-top: 8.4rem;
+    padding-bottom: 4.2rem;
     position: relative;
     color: rgba(255, 255, 255, 0.5);
     min-height: 35rem;
 }
 
 .page-header--single {
-    padding-top: 22.8rem;
-    padding-bottom: 7.2rem;
-    text-align: center;
+    padding-top: 12.8rem;
+    padding-bottom: 5.2rem;
+    text-align: left;
 }
 
 .small-page-header::before,
@@ -3366,7 +3366,7 @@ article.blog-single .blog-content {
     width: 100%;
     height: 100%;
     opacity: .75;
-    background-color: #0D0A0B;
+    background-color: floralwhite;
 }
 
 .small-page-header::after,
@@ -3456,17 +3456,17 @@ article.blog-single .blog-content {
 }
 
 .page-header__title {
-    color: #FFFFFF;
+    color: darkslategray;
     position: relative;
     font-family: "librebaskerville-bold", serif;
-    font-size: 6.6rem;
+    font-size: 4.6rem;
     line-height: 1.227;
     margin-top: 0;
     margin-bottom: 3.6rem;
 }
 
 .page-header__title a {
-    color: #FFFFFF;
+    color: darkslategray;
 }
 
 .page-header__meta {
