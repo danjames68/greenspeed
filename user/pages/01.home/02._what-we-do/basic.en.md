@@ -19,4 +19,4 @@ row:
 onpage_menu: true
 ---
 
-We call it "Design for Sustainability" (hence D4S). We all need to use the internet and with careful design can minimise energy use while speeding up the response times, which in turns improves your SEO scores - so good news all round. Plus you get a badge!
+We call it "Design for Sustainability". We all need to use the internet and with careful design can minimise energy use while speeding up the response times, which in turns improves your SEO scores - so good news all round. Plus you get a badge!

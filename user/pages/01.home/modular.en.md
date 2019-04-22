@@ -1,5 +1,5 @@
 ---
-title: GreenSpeed
+title: GreenSpeedStudio
 content:
     items: '@self.modular'
 menu: Home

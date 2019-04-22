@@ -5,7 +5,7 @@ menu: Find out more
 subtitle: ''
 content:
     items:
-        '@page.descendants': /blog
+        '@page.descendants': /articles
     order:
         by: date
         dir: desc

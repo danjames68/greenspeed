@@ -13,8 +13,8 @@ button2Link: '#speed'
 button3Text: 'Scroll Down'
 button3Link: '#services'
 question: Did you know?
-statement: Global internet energy usage is second only to air-flight.
+statement: Global internet energy usage is now second only to air-flight.
 
 ---
 
-# At D4S we design lightweight, fast websites - and host them on servers powered only via wind-power.
+# At GreenSpeed Studio we design lightweight, fast websites - and host them on servers powered only via wind-power.
