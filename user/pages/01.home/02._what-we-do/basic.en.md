@@ -1,7 +1,7 @@
 ---
-title: 'Why small fast websites help the planet'
+title: 'We build lightweight and blazingly fast websites. And we host them on servers powered by renewable energy.'
 smallTitle: 'What we do'
-menu: 'why green'
+menu: 'find out more'
 visible: true
 row:
     -
@@ -19,4 +19,4 @@ row:
 onpage_menu: true
 ---
 
-Did you know that powering the internet is now the second largest source of carbon emissions, coming in just behind [global air travel](https://e360.yale.edu/features/energy-hogs-can-huge-data-centers-be-made-more-efficient)?. 
+We call it "Design for Sustainability" (hence D4S). We all need to use the internet and with careful design can minimise energy use while speeding up the response times, which in turns improves your SEO scores - so good news all round. Plus you get a badge!

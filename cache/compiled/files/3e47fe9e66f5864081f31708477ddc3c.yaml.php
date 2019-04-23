@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/plugins/admin/blueprints/config/media.yaml',
-    'modified' => 1555158803,
+    'modified' => 1555836612,
     'data' => [
         'title' => 'PLUGIN_ADMIN.MEDIA',
         'form' => [

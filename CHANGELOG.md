@@ -1,3 +1,37 @@
+# v1.6.6
+## 04/17/2019
+
+1. [](#new)
+    * `FormInterface` now implements `RenderInterface` 
+    * Added new `FormInterface::getTask()` method which reads the task from `form.task` in the blueprint 
+1. [](#improved)
+    * Updated vendor libraries to latest
+1. [](#bugfix)
+    * Rollback `redirect_default_route` logic as it has issues with multi-lang [#2459](https://github.com/getgrav/grav/issues/2459)
+    * Fix potential issue with `|contains` Twig filter on PHP 7.3 
+    * Fixed bug in text field filtering: return empty string if value isn't a string or number [#2460](https://github.com/getgrav/grav/issues/2460)
+    * Force Asset `priority` to be an integer and not throw error if invalid string passed [#2461](https://github.com/getgrav/grav/issues/2461)
+    * Fixed bug in text field filtering: return empty string if value isn't a string or number
+    * Fixed `FlexForm` missing getter methods for defining form variables
+    
+# v1.6.5
+## 04/15/2019
+
+1. [](#bugfix)
+    * Backwards compatiblity with old `Uri::__toString()` output
+
+# v1.6.4
+## 04/15/2019
+
+1. [](#bugfix)
+    * Improved `redirect_default_route` logic as well as `Uri::toArray()` to take into account `root_path` and `extension`
+    * Rework logic to pull out excluded files from pipeline more reliably [#2445](https://github.com/getgrav/grav/issues/2445)
+    * Better logic in `Utils::normalizePath` to handle externals properly [#2216](https://github.com/getgrav/grav/issues/2216)
+    * Fixed to force all `Page::taxonomy` to be treated as strings [#2446](https://github.com/getgrav/grav/issues/2446)
+    * Fixed issue with `Grav['user']` not being available [form#332](https://github.com/getgrav/grav-plugin-form/issues/332)
+    * Updated rounding logic for `Utils::parseSize()` [#2394](https://github.com/getgrav/grav/issues/2394)
+    * Fixed Flex simple storage not being properly initialized if used with caching
+
 # v1.6.3
 ## 04/12/2019
 

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/config/system.yaml',
-    'modified' => 1555170984,
+    'modified' => 1555836568,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',

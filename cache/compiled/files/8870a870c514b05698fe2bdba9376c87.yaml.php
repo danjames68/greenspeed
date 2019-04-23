@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/user/plugins/admin/languages/id.yaml',
-    'modified' => 1555158803,
+    'modified' => 1555836613,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Ini merupakan rilisan Beta! Gunakan ini di produksi dengan resiko anda sendiri...',

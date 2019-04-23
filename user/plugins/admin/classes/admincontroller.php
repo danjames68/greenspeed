@@ -572,6 +572,9 @@ class AdminController extends AdminBaseController
     {
         $reorder = true;
 
+        $data = (array)$this->data;
+        $this->grav['twig']->twig_vars['current_form_data'] = $data;
+
         /** @var Pages $pages */
         $pages = $this->grav['pages'];
 
@@ -705,7 +708,6 @@ class AdminController extends AdminBaseController
         }
 
         $user->update($data->toArray());
-        $user->undef('avatar');
 
         $user = $this->storeFiles($user);
 
@@ -963,7 +965,7 @@ class AdminController extends AdminBaseController
                 }
 
                 foreach ($update as $slug => $item) {
-                    $resources_updates[$key][$slug] = $item->toArray();
+                    $resources_updates[$key][$slug] = $item;
                 }
             }
 
@@ -1414,7 +1416,7 @@ class AdminController extends AdminBaseController
         $this->admin->json_response = [
             'status'  => 'success',
             'child_type' => '',
-            'message' => $this->admin::translate('PLUGIN_ADMIN.NO_CHILD_TYPE')
+//            'message' => $this->admin::translate('PLUGIN_ADMIN.NO_CHILD_TYPE')
         ];
 
         return true;

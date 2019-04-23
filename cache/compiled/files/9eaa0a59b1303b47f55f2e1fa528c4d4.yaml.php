@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeed/system/languages/nl.yaml',
-    'modified' => 1555158756,
+    'modified' => 1555836567,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---

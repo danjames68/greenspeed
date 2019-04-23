@@ -1,17 +1,20 @@
 ---
 title: Welcome
-media_order: hero-bg02.jpg
+media_order: hero-bg03.jpg
 menu: home
 redirect: home
 visible: true
-background: green-bg00.svg
-button1Text: 'Green?'
+bannerOpacity: '0.8'
+background: hero-bg03.jpg
+button1Text: 'How to fix it'
 button1Link: '#green'
-button2Text: 'Speed?'
+button2Text: 'Find out more'
 button2Link: '#speed'
 button3Text: 'Scroll Down'
 button3Link: '#services'
+question: Did you know?
+statement: Global internet energy usage is second only to air-flight.
 
 ---
 
-At GreenSpeed we build fast eco-friendly websites in the UK.
+# At D4S we design lightweight, fast websites - and host them on servers powered only via wind-power.
