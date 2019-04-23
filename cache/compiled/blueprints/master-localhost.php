@@ -1,18 +1,54 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
+<<<<<<< HEAD
+    'timestamp' => 1556028696,
+    'checksum' => 'ae4f7b1c7ef0d0b0cf755166144e1dc7',
+=======
     'timestamp' => 1555836619,
     'checksum' => '52a100c00629c07b5cda97bec04d32f4',
+>>>>>>> b1d4f7c8a0ab31a329de7d5a2c789da92238b9af
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
                 'file' => 'user/plugins/admin/blueprints/config/media.yaml',
+<<<<<<< HEAD
+                'modified' => 1555160317
+=======
                 'modified' => 1555836612
+>>>>>>> b1d4f7c8a0ab31a329de7d5a2c789da92238b9af
             ]
         ],
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
+<<<<<<< HEAD
+                'modified' => 1555160316
+            ],
+            'media' => [
+                'file' => 'system/blueprints/config/media.yaml',
+                'modified' => 1555160316
+            ],
+            'scheduler' => [
+                'file' => 'system/blueprints/config/scheduler.yaml',
+                'modified' => 1555160316
+            ],
+            'security' => [
+                'file' => 'system/blueprints/config/security.yaml',
+                'modified' => 1555160316
+            ],
+            'site' => [
+                'file' => 'system/blueprints/config/site.yaml',
+                'modified' => 1555160316
+            ],
+            'streams' => [
+                'file' => 'system/blueprints/config/streams.yaml',
+                'modified' => 1555160316
+            ],
+            'system' => [
+                'file' => 'system/blueprints/config/system.yaml',
+                'modified' => 1555160316
+=======
                 'modified' => 1555836567
             ],
             'media' => [
@@ -38,40 +74,57 @@ return [
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
                 'modified' => 1555836567
+>>>>>>> b1d4f7c8a0ab31a329de7d5a2c789da92238b9af
             ]
         ],
         'user/plugins' => [
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1543931236
+                'modified' => 1555160318
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
+<<<<<<< HEAD
+                'modified' => 1555160317
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/blueprints.yaml',
+                'modified' => 1555160317
+=======
                 'modified' => 1555836603
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
                 'modified' => 1555836612
+>>>>>>> b1d4f7c8a0ab31a329de7d5a2c789da92238b9af
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1555006937
+                'modified' => 1555160318
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/blueprints.yaml',
-                'modified' => 1555170984
+                'modified' => 1555166046
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1543931232
+                'modified' => 1555160317
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
+<<<<<<< HEAD
+                'modified' => 1555160317
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/blueprints.yaml',
+                'modified' => 1555160317
+=======
                 'modified' => 1555836606
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
                 'modified' => 1555836618
+>>>>>>> b1d4f7c8a0ab31a329de7d5a2c789da92238b9af
             ]
         ]
     ],
