@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeedstudio/user/plugins/form/blueprints.yaml',
-    'modified' => 1555836603,
+    'modified' => 1556051785,
     'data' => [
         'name' => 'Form',
-        'version' => '3.0.1',
+        'version' => '3.0.2',
         'testing' => false,
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
@@ -217,6 +217,16 @@ return [
                                 '2-invisible' => 'v2 - Invisible',
                                 3 => 'v3 - Latest'
                             ]
+                        ],
+                        'recaptcha.theme' => [
+                            'type' => 'select',
+                            'label' => 'Theme',
+                            'default' => 'light',
+                            'options' => [
+                                'light' => 'Light Theme',
+                                'dark' => 'Dark Theme'
+                            ],
+                            'recaptcha.site_key' => NULL
                         ],
                         'recaptcha.site_key' => [
                             'type' => 'text',

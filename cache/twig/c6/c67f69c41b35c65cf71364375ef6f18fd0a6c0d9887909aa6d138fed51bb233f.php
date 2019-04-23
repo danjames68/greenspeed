@@ -53,6 +53,6 @@ class __TwigTemplate_58b17294dc34b70069417b48bc7ea18c880e7a03a0ddfad670925960679
 
     public function getSourceContext()
     {
-        return new Source("", "partials/nav-toggle.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
+        return new Source("", "partials/nav-toggle.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
     }
 }

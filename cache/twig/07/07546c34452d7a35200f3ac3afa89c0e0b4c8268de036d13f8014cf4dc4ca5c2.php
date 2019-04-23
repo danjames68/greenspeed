@@ -95,6 +95,6 @@ class __TwigTemplate_1785e4d24d69fd8c508a44562d254669d26915105586e74292f53c562d2
 
     public function getSourceContext()
     {
-        return new Source("", "partials/list-sort.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+        return new Source("", "partials/list-sort.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

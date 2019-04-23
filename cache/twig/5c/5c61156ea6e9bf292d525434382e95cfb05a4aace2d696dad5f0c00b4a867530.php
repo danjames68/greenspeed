@@ -131,6 +131,6 @@ class __TwigTemplate_c2c6ac0f74b80a7fbb9ac39883b2bae48e3566e2dda39e6451628c6a03f
 
     public function getSourceContext()
     {
-        return new Source("", "partials/blueprints-new.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
+        return new Source("", "partials/blueprints-new.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
     }
 }

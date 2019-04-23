@@ -195,6 +195,6 @@ class __TwigTemplate_e718519c5eb1d5c516b61682ca37223a0afcbb0dec588389e0fdc285a70
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-update-packages.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
+        return new Source("", "partials/modal-update-packages.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
     }
 }

@@ -84,6 +84,6 @@ class __TwigTemplate_77ac01af6e634388cc22b23b49600345d19d3a3b1808488316f0ec1a59c
 
     public function getSourceContext()
     {
-        return new Source("", "partials/page-legend.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+        return new Source("", "partials/page-legend.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

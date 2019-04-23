@@ -79,6 +79,6 @@ class __TwigTemplate_95eb867b1515f8a22c9749599c27a352dcdde2e8b7c7120eabf9c88b112
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-changes-detected.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+        return new Source("", "partials/modal-changes-detected.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

@@ -169,6 +169,6 @@ class __TwigTemplate_e4e9369ff2eea106ecefb3d5238399d778f9168d5c217695986248ead36
 
     public function getSourceContext()
     {
-        return new Source("", "partials/nav-quick-tray.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+        return new Source("", "partials/nav-quick-tray.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

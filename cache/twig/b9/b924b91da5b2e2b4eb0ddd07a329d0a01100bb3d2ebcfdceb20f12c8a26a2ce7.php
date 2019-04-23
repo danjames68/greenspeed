@@ -162,6 +162,6 @@ class __TwigTemplate_e320117a10896d7773e3632035c19e0656b6ce8366ae8c08b14571a5422
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/section/section.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+        return new Source("", "forms/fields/section/section.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }

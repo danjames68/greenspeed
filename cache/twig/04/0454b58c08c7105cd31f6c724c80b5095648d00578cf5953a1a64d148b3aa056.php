@@ -1228,6 +1228,6 @@ $context["p"], "published", [])) ? (($this->env->getExtension('Grav\Plugin\Admin
 
     public function getSourceContext()
     {
-        return new Source("", "pages.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/pages.html.twig");
+        return new Source("", "pages.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/pages.html.twig");
     }
 }

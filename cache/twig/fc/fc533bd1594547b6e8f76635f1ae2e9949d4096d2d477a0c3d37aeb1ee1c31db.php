@@ -90,6 +90,6 @@ class __TwigTemplate_1ffd11c516dcf858b51e2fe5920884b54bd3d0718c31d1fc7f5e24a64cc
 
     public function getSourceContext()
     {
-        return new Source("", "partials/metadata.html.twig", "/Users/daniel/Sites/greenspeed/system/templates/partials/metadata.html.twig");
+        return new Source("", "partials/metadata.html.twig", "/Users/daniel/Sites/greenspeedstudio/system/templates/partials/metadata.html.twig");
     }
 }

@@ -229,6 +229,6 @@ class __TwigTemplate_6992ec79c6c3dbcb9f12169140b196ca895c2291e00554375a1200d1415
 
     public function getSourceContext()
     {
-        return new Source("", "partials/plugin-data.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/templates/partials/plugin-data.html.twig");
+        return new Source("", "partials/plugin-data.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/templates/partials/plugin-data.html.twig");
     }
 }

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://form/form.yaml',
-    'modified' => 1555836603,
+    'modified' => 1556051785,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -23,6 +23,7 @@ return [
         ],
         'recaptcha' => [
             'version' => '2-checkbox',
+            'theme' => 'light',
             'site_key' => NULL,
             'secret_key' => NULL
         ]

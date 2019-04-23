@@ -51,6 +51,6 @@ class __TwigTemplate_bf52624903f60be71f7c7569165e4fe724e29dbd657747002769af7dc38
 
     public function getSourceContext()
     {
-        return new Source("", "@admin-images/grav-small.svg", "/Users/daniel/Sites/greenspeed/user/plugins/admin/themes/grav/images/grav-small.svg");
+        return new Source("", "@admin-images/grav-small.svg", "/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/themes/grav/images/grav-small.svg");
     }
 }

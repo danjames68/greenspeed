@@ -77,6 +77,6 @@ class __TwigTemplate_26f4a2829e21b8b678625fa363d2fa84ddbb3ef472b58e381be0995c2d4
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/email/email.html.twig", "/Users/daniel/Sites/greenspeed/user/plugins/form/templates/forms/fields/email/email.html.twig");
+        return new Source("", "forms/fields/email/email.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/plugins/form/templates/forms/fields/email/email.html.twig");
     }
 }

@@ -72,6 +72,6 @@ class __TwigTemplate_3a9b488bdfa827cfcb6e2e935a982323c9e6b457bed768cf84ff3f6b640
 
     public function getSourceContext()
     {
-        return new Source("", "partials/logo.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/partials/logo.html.twig");
+        return new Source("", "partials/logo.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/partials/logo.html.twig");
     }
 }

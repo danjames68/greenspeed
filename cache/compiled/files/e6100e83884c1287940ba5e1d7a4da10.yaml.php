@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeedstudio/user/plugins/admin/blueprints/admin/pages/modular_new.yaml',
-    'modified' => 1555836612,
+    'modified' => 1556051781,
     'data' => [
         'rules' => [
             'slug' => [

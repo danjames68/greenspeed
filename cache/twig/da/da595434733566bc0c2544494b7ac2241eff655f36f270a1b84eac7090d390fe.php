@@ -79,6 +79,6 @@ class __TwigTemplate_e70eb248936d389eafaec42db28db504b4358d8f932e70051040d98bcec
 
     public function getSourceContext()
     {
-        return new Source("", "modular.html.twig", "/Users/daniel/Sites/greenspeed/user/themes/greenspeed/templates/modular.html.twig");
+        return new Source("", "modular.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/modular.html.twig");
     }
 }
