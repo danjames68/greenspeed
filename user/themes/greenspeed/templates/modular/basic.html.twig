@@ -40,5 +40,13 @@
 
     <!-- end basic-content -->
 
+    <div class="service-content__buttons">
+                {% if page.header.button1Text %}
+                    <a href="{{ page.header.button1Link }}" class="smoothscroll btn btn--stroke">
+                        {{ page.header.button1Text }}
+                    </a>
+                {% endif %}   
+     </div>
+
 </section>
 <!-- end basic -->

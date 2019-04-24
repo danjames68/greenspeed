@@ -1,105 +1,105 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1556051786,
-    'checksum' => '391b62c2aa76c31ffe107e79e9b14079',
+    'timestamp' => 1556110192,
+    'checksum' => 'fda73438f16e6336833bc868f287f150',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1555158760
+                'modified' => 1555160317
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1543931204
+                'modified' => 1555160317
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1555158760
+                'modified' => 1555160317
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1555006837
+                'modified' => 1555160317
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1555262504
+                'modified' => 1555234348
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1543931204
+                'modified' => 1555160317
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1556051751
+                'modified' => 1555167060
             ],
             'themes/greenspeed' => [
                 'file' => 'user/config/themes/greenspeed.yaml',
-                'modified' => 1555262504
+                'modified' => 1556110190
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
-                'modified' => 1555170984
+                'modified' => 1555166500
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1556051750
+                'modified' => 1555160316
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1556051750
+                'modified' => 1555160316
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1556051750
+                'modified' => 1555160316
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1556051750
+                'modified' => 1556029105
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1556051750
+                'modified' => 1555160316
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1556051750
+                'modified' => 1555160316
             ]
         ],
         'user/plugins' => [
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1543931236
+                'modified' => 1555160318
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1556051785
+                'modified' => 1556101852
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1556051781
+                'modified' => 1555160317
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1555006937
+                'modified' => 1555160318
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1556051774
+                'modified' => 1555166046
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1543931232
+                'modified' => 1555160317
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1555836606
+                'modified' => 1555160317
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1555836618
+                'modified' => 1555160317
             ]
         ]
     ],
@@ -924,11 +924,11 @@ node_modules'
             'greenspeed' => [
                 'enabled' => true,
                 'custom_logo' => [
-                    'user/themes/greenspeed/images/logo/logo.png' => [
-                        'name' => 'logo.svg',
-                        'type' => 'image/svg',
+                    'user/themes/greenspeed/images/logo/spiral-logo.png' => [
+                        'name' => 'spiral-logo.png',
+                        'type' => 'image/png',
                         'size' => 5238,
-                        'path' => 'user/themes/greenspeed/images/logo/logo.svg'
+                        'path' => 'user/themes/greenspeed/images/logo/spiral-logo.png'
                     ]
                 ],
                 'footer-text' => '© Copyright Greenspeed 2018',

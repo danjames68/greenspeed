@@ -2,7 +2,7 @@
 title: 'Find out more.'
 smallTitle: Technical Notes
 menu: Find out more
-subtitle: ''
+subtitle: 'articles'
 content:
     items:
         '@page.descendants': /articles

@@ -2,19 +2,19 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://greenspeed/greenspeed.yaml',
-    'modified' => 1555170984,
+    'modified' => 1556109334,
     'data' => [
         'enabled' => true,
         'custom_logo' => [
-            'user/themes/hola/images/logo/logo.png' => [
-                'name' => 'logo.png',
+            'user/themes/hola/images/logo/spiral-logo.png' => [
+                'name' => 'spiral-logo.png',
                 'type' => 'image/png',
                 'size' => 5238,
-                'path' => 'user/themes/hola/images/logo/logo.png'
+                'path' => 'user/themes/hola/images/logo/spiral-logo.png'
             ]
         ],
-        'footer-text' => '© Copyright Hola 2018',
-        'footer-design' => 'Design by <a href="https://www.styleshout.com/">styleshout</a>, GRAV conversion by <a href="https://devlom.com/">Devlom</a>',
+        'footer-text' => '© Copyright GreenSpeedStudio 2019',
+        'footer-design' => 'Design by <a href="https://www.greenspeedstudio.com/">Green Speed Studio</a>, based on Hola by <a href="https://devlom.com/">Devlom</a>',
         'footer-additional-text' => 'Porting this template to GRAV was made possible with support of <a href="https://davidhagenauer.com/">davidhagenauer.com</a>.'
     ]
 ];

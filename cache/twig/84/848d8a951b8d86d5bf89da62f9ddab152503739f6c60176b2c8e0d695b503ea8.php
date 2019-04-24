@@ -122,6 +122,25 @@ class __TwigTemplate_5248e0eb8db87b46374371e5c0412a5c6f76571975c13e917888a9ba99a
         echo "
     <!-- end basic-content -->
 
+    <div class=\"service-content__buttons\">
+                ";
+        // line 44
+        if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", [])) {
+            // line 45
+            echo "                    <a href=\"";
+            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Link", []);
+            echo "\" class=\"smoothscroll btn btn--stroke\">
+                        ";
+            // line 46
+            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", []);
+            echo "
+                    </a>
+                ";
+        }
+        // line 48
+        echo "   
+     </div>
+
 </section>
 <!-- end basic -->";
     }
@@ -138,7 +157,7 @@ class __TwigTemplate_5248e0eb8db87b46374371e5c0412a5c6f76571975c13e917888a9ba99a
 
     public function getDebugInfo()
     {
-        return array (  122 => 40,  115 => 38,  107 => 33,  102 => 31,  98 => 29,  90 => 24,  85 => 22,  77 => 17,  72 => 15,  68 => 13,  66 => 12,  63 => 11,  59 => 10,  53 => 7,  49 => 6,  45 => 5,  39 => 2,  30 => 1,);
+        return array (  141 => 48,  135 => 46,  130 => 45,  128 => 44,  122 => 40,  115 => 38,  107 => 33,  102 => 31,  98 => 29,  90 => 24,  85 => 22,  77 => 17,  72 => 15,  68 => 13,  66 => 12,  63 => 11,  59 => 10,  53 => 7,  49 => 6,  45 => 5,  39 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -151,6 +170,6 @@ class __TwigTemplate_5248e0eb8db87b46374371e5c0412a5c6f76571975c13e917888a9ba99a
 
     public function getSourceContext()
     {
-        return new Source("", "modular/basic.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/modular/basic.html.twig");
+        return new Source("", "modular/basic.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/modular/basic.html.twig");
     }
 }
