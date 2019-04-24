@@ -1,8 +1,8 @@
 ---
 title: 'Find out more.'
 smallTitle: Technical Notes
-menu: articles
-subtitle: articles
+menu: 'articles'
+subtitle: 'articles'
 content:
     items:
         '@page.descendants': /articles
@@ -10,7 +10,7 @@ content:
         by: date
         dir: desc
     limit: 4
-hidemenu: false
+visible: true
 ---
 
-Lorem ipsum Dolor adipisicing nostrud et aute. Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.
+Guidelines and tips on how to green your digital footprint. From changing server to resizing images and cache changes there are are a number of things you can do - or we can help you with.

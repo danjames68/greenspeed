@@ -8,8 +8,6 @@ bannerOpacity: '0.8'
 background: hero-bg03.jpg
 button1Text: 'What we do'
 button1Link: '#about'
-button2Text: 'Find out more'
-button2Link: '#speed'
 button3Text: 'Scroll Down'
 button3Link: '#services'
 question: Did you know?

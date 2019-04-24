@@ -19,7 +19,7 @@ feed:
     description: 'Green Website news'
     limit: 0
 pagination: true
-visible: true
+visible: false
 
 ---
 
