@@ -312,6 +312,6 @@ class __TwigTemplate_18865d0282a7b9c68c9f6496ebb6fc57a13eb9f0e704c669315adfa5286
 
     public function getSourceContext()
     {
-        return new Source("", "partials/navigation.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/partials/navigation.html.twig");
+        return new Source("", "partials/navigation.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/partials/navigation.html.twig");
     }
 }

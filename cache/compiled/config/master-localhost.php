@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1556110192,
-    'checksum' => 'fda73438f16e6336833bc868f287f150',
+    'timestamp' => 1556112819,
+    'checksum' => '4c25e4e2662a2c890b11d8db28944e12',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,11 +31,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1555167060
+                'modified' => 1556112022
             ],
             'themes/greenspeed' => [
                 'file' => 'user/config/themes/greenspeed.yaml',
-                'modified' => 1556110190
+                'modified' => 1556111514
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
@@ -45,27 +45,27 @@ return [
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1555160316
+                'modified' => 1556112021
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1555160316
+                'modified' => 1556112021
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1555160316
+                'modified' => 1556112021
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1556029105
+                'modified' => 1556112021
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1555160316
+                'modified' => 1556112021
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1555160316
+                'modified' => 1556112021
             ]
         ],
         'user/plugins' => [
@@ -931,7 +931,7 @@ node_modules'
                         'path' => 'user/themes/greenspeed/images/logo/spiral-logo.png'
                     ]
                 ],
-                'footer-text' => '© Copyright Greenspeed 2018',
+                'footer-text' => '© Copyright Greenspeed 2019',
                 'footer-design' => 'copyright',
                 'footer-additional-text' => 'further text'
             ],

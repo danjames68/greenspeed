@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/greenspeed/system/config/site.yaml',
-    'modified' => 1556029105,
+    'modified' => 1556112021,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

@@ -21,7 +21,7 @@ form:
 
         holaSetings:
           type: tab
-          title: Hola Settings
+          title: GreenSpeed Settings
 
           fields:
                 background:

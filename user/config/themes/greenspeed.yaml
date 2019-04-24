@@ -5,7 +5,7 @@ custom_logo:
     type: image/png
     size: 5238
     path: user/themes/greenspeed/images/logo/spiral-logo.png
-footer-text: '© Copyright Greenspeed 2018'
+footer-text: '© Copyright Greenspeed 2019'
 footer-design: 'copyright'
 
 footer-additional-text: 'further text'

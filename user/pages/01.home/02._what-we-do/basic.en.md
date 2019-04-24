@@ -1,7 +1,7 @@
 ---
-title: 'We build lightweight and blazingly fast websites. And we host them on servers powered by renewable energy.'
+title: 'We build lightweight fast websites. And we host them on servers powered by renewable energy.'
 smallTitle: 'What we do'
-menu: 'what we do'
+menu: 'about'
 button1Text: 'Contact Us'
 button1Link: '#contact'
 visible: true

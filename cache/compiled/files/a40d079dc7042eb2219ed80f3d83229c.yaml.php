@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/greenspeed/system/config/backups.yaml',
-    'modified' => 1555160316,
+    'modified' => 1556112021,
     'data' => [
         'purge' => [
             'trigger' => 'space',
