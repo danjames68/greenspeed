@@ -6,13 +6,15 @@ redirect: home
 visible: true
 bannerOpacity: '0.8'
 background: hero-bg03.jpg
-button1Text: 'What we do'
-button1Link: '#about'
+button2Text: 'What we do'
+button2Link: '#about'
+button1Text: 'Tell me more'
+button1Link: '#intro'
 button3Text: 'Scroll Down'
 button3Link: '#services'
 question: Did you know?
-statement: Global internet energy usage is now second only to air-flight.
+statement: Global internet energy usage is now second only to air-flight
 
 ---
 
-# At GreenSpeed Studio we design lightweight, fast websites - and host them on servers powered only via wind-power.
+# We've been exploring ways to minimise a website's digital carbon footprint. Strategies that will lower your energy use AND speed up your website, which also helps your SEO.
