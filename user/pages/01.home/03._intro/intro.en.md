@@ -1,10 +1,8 @@
 ---
 title: 'The energy use of data-centres and server farms is now enormous -  and the carbon load is growing every year'
-media_order: /images/dan.jpg
 smallTitle: 'Why Green Websites'
 menu: 'why green'
 visible: true
-image: /greenspeed/user/pages/images/dan.jpg
 row:
     -
         firstColumnContent: "My name is Dan and I first started designing websites in the late 90s. They were tiny lightweight little things - they had to be, we were all on dial-up and data transfer was painfully slow.\n
