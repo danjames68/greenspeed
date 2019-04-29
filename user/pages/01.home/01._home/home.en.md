@@ -17,4 +17,4 @@ statement: Global internet energy usage is now second only to air-flight
 
 ---
 
-# We've been exploring ways to minimise a website's digital carbon footprint. Strategies that will lower your energy use AND speed up your website, which also helps your SEO.
+# Luckily there are ways to minimise a website's digital carbon footprint. I build lightweight fast websites and host them on local servers powered by renewable energy. A green host, a fast website plus better SEO. And a badge to tell the world.

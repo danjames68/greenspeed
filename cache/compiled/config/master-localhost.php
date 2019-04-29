@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1556130044,
-    'checksum' => '1dc209d39ef6851cff3cf63ffede9901',
+    'timestamp' => 1556481462,
+    'checksum' => '37f36d4320da5130f05b9f59ac2562a0',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,10 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1543931204
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1556479768
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
@@ -23,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1555262504
+                'modified' => 1556481461
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -271,10 +275,10 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
-                'from_name' => NULL,
-                'to' => NULL,
-                'to_name' => NULL,
+                'from' => 'info@greenspeed.co.uk',
+                'from_name' => 'Dan',
+                'to' => 'info@greenspeed.co.uk',
+                'to_name' => 'Dan',
                 'queue' => [
                     'enabled' => false,
                     'flush_frequency' => '* * * * *',
@@ -287,8 +291,8 @@ return [
                         'server' => 'localhost',
                         'port' => 25,
                         'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
+                        'user' => 'danjames68@me.com',
+                        'password' => 'Bobbins--2734'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'
@@ -669,12 +673,12 @@ node_modules'
                 0 => [
                     'socialIconClass' => 'fa fa-envelope',
                     'socialIconText' => 'email',
-                    'socialIconLink' => 'https://www.facebook.com/devlom'
+                    'socialIconLink' => 'mailto: info@greenspeed.co.uk'
                 ],
                 1 => [
                     'socialIconClass' => 'fa fa-twitter',
                     'socialIconText' => 'Twitter',
-                    'socialIconLink' => 'https://twitter.com/devlomthemes'
+                    'socialIconLink' => 'https://twitter.com/greenspeedstudio'
                 ]
             ],
             'contact' => [

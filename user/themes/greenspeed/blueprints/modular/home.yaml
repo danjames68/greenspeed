@@ -5,7 +5,7 @@ form:
     tabs:
 
       fields:
-        holaSetings:
+        GreenSpeed-Settings:
           type: tab
           title: GreenSpeed Settings
 

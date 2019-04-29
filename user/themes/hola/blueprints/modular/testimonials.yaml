@@ -9,7 +9,7 @@ form:
 
       fields:
 
-        holaSetings:
+        GreenSpeed-Settings:
           type: tab
           title: Hola Settings
 

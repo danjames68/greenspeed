@@ -19,7 +19,7 @@ form:
               style: vertical
               label: Small Upper Title
 
-        holaSetings:
+        GreenSpeed-Settings:
           type: tab
           title: Hola Settings
 

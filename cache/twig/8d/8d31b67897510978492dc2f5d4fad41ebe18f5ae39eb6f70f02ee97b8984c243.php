@@ -70,7 +70,7 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
             echo "</h3>
                     <img src=\"";
             // line 16
-            echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "header", []), "image", []);
+            echo $this->getAttribute(($context["header"] ?? null), "image", []);
             echo "\" alt=\"Garden image\" class=\"testimonials__avatar\">
                     <p class=\"lead\">";
             // line 17

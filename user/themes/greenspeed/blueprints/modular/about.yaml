@@ -19,7 +19,7 @@ form:
               style: vertical
               label: Small Upper Title
 
-        holaSetings:
+        GS-Setings:
           type: tab
           title: GreenSpeed Settings
 

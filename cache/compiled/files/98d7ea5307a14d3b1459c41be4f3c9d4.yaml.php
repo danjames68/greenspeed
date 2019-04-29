@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/daniel/Sites/greenspeedstudio/user/config/site.yaml',
-    'modified' => 1555262504,
+    'modified' => 1556481461,
     'data' => [
         'title' => 'Fast Eco-Friendly Websites based in Energy Efficient UK based servers',
         'author' => [
@@ -21,12 +21,12 @@ return [
             0 => [
                 'socialIconClass' => 'fa fa-envelope',
                 'socialIconText' => 'email',
-                'socialIconLink' => 'https://www.facebook.com/devlom'
+                'socialIconLink' => 'mailto: info@greenspeed.co.uk'
             ],
             1 => [
                 'socialIconClass' => 'fa fa-twitter',
                 'socialIconText' => 'Twitter',
-                'socialIconLink' => 'https://twitter.com/devlomthemes'
+                'socialIconLink' => 'https://twitter.com/greenspeedstudio'
             ]
         ],
         'contact' => [

@@ -9,11 +9,11 @@ social:
     -
         socialIconClass: 'fa fa-envelope'
         socialIconText: email
-        socialIconLink: 'https://www.facebook.com/devlom'
+        socialIconLink: 'mailto: info@greenspeed.co.uk'
     -
         socialIconClass: 'fa fa-twitter'
         socialIconText: Twitter
-        socialIconLink: 'https://twitter.com/devlomthemes'
+        socialIconLink: 'https://twitter.com/greenspeedstudio'
         
 contact:
     phoneTitle: Phone
