@@ -7,11 +7,11 @@ button1Link: '#contact'
 visible: true
 row:
     -
-        firstColumnContent: "I host all my websites on [eco-efficient servers powered with renewable energy](#green-servers) and based locally in the UK. \n
+        firstColumnContent: "I host all my websites on eco-efficient servers powered with renewable energy and based locally in the UK. \n
 
-        On these green servers I build fast websites with carefully crafted coding. Smaller file sizes increase efficiency and they also [improve your SEO](#how-site-speed-helps-SEO), or how well you rank with Google. \n
+        On these green servers I build fast websites with carefully crafted coding. Smaller file sizes increase efficiency and they also improve your SEO, or how well you rank with Google. \n
 
-        All my websites come with the [GreenSpeed badge](#greenspeed-badge) to certify that you are environmentally responsible and that your website scores at least 79 in the [Google Page Speed test for mobiles](https://developers.google.com/speed/pagespeed/insights/). \n
+        All my websites come with the GreenSpeed badge to certify that you are environmentally responsible and that your website scores at least 79 in the Google Page Speed test for mobiles. \n
 
         Are you a UK business or charity looking to green your network credentials? Then why not get in touch and ask me to run a review of your website and server?"
 

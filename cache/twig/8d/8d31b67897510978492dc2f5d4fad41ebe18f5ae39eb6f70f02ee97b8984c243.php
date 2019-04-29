@@ -68,12 +68,8 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
             // line 15
             echo $this->getAttribute($context["column"], "firstColumnTitle", []);
             echo "</h3>
-                    <img src=\"";
-            // line 16
-            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "image", []);
-            echo "\" alt=\"Dan Wrightson\" class=\"testimonials__avatar\">
                     <p class=\"lead\">";
-            // line 17
+            // line 16
             echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($this->getAttribute($context["column"], "firstColumnContent", []));
             echo "
                     </p>
@@ -86,26 +82,26 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['column'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 24
+        // line 23
         echo "
     <!-- end basic-content -->
 
     <div class=\"service-content__buttons\">
                 ";
-        // line 28
+        // line 27
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", [])) {
-            // line 29
+            // line 28
             echo "                    <a href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Link", []);
             echo "\" class=\"smoothscroll btn btn--stroke\">
                         ";
-            // line 30
+            // line 29
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "button1Text", []);
             echo "
                     </a>
                 ";
         }
-        // line 32
+        // line 31
         echo "   
      </div>
 
@@ -125,7 +121,7 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
 
     public function getDebugInfo()
     {
-        return array (  109 => 32,  103 => 30,  98 => 29,  96 => 28,  90 => 24,  77 => 17,  73 => 16,  69 => 15,  63 => 11,  59 => 10,  53 => 7,  49 => 6,  45 => 5,  39 => 2,  30 => 1,);
+        return array (  105 => 31,  99 => 29,  94 => 28,  92 => 27,  86 => 23,  73 => 16,  69 => 15,  63 => 11,  59 => 10,  53 => 7,  49 => 6,  45 => 5,  39 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -138,6 +134,6 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
 
     public function getSourceContext()
     {
-        return new Source("", "modular/intro.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/modular/intro.html.twig");
+        return new Source("", "modular/intro.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/modular/intro.html.twig");
     }
 }

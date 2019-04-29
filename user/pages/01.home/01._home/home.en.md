@@ -1,11 +1,11 @@
 ---
 title: Welcome
-media_order: hero-bg04.jpg
+media_order: hero-bg05.jpg
 menu: home
 redirect: home
 visible: true
 bannerOpacity: '0.8'
-background: hero-bg04.jpg
+background: hero-bg05.jpg
 button1Text: 'Tell me more'
 button1Link: '#why green'
 button3Text: 'Scroll Down'

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://greenspeed/greenspeed.yaml',
-    'modified' => 1556109334,
+    'modified' => 1556130038,
     'data' => [
         'enabled' => true,
         'custom_logo' => [
