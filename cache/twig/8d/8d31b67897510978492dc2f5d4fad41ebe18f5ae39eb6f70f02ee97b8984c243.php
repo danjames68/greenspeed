@@ -70,8 +70,8 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
             echo "</h3>
                     <img src=\"";
             // line 16
-            echo $this->getAttribute(($context["header"] ?? null), "image", []);
-            echo "\" alt=\"Garden image\" class=\"testimonials__avatar\">
+            echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "image", []);
+            echo "\" alt=\"Dan Wrightson\" class=\"testimonials__avatar\">
                     <p class=\"lead\">";
             // line 17
             echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($this->getAttribute($context["column"], "firstColumnContent", []));
@@ -138,6 +138,6 @@ class __TwigTemplate_753f2e0cf3f9e79c30c5a90aa24360e7cae021bc35265186dd52289f013
 
     public function getSourceContext()
     {
-        return new Source("", "modular/intro.html.twig", "/Users/daniel/Sites/greenspeedstudio/user/themes/greenspeed/templates/modular/intro.html.twig");
+        return new Source("", "modular/intro.html.twig", "/Users/dan/Sites/greenspeed/user/themes/greenspeed/templates/modular/intro.html.twig");
     }
 }

@@ -1,15 +1,13 @@
 ---
 title: Welcome
-media_order: hero-bg03.jpg
+media_order: hero-bg04.jpg
 menu: home
 redirect: home
 visible: true
 bannerOpacity: '0.8'
-background: hero-bg03.jpg
-button2Text: 'What we do'
-button2Link: '#about'
+background: hero-bg04.jpg
 button1Text: 'Tell me more'
-button1Link: '#intro'
+button1Link: '#why green'
 button3Text: 'Scroll Down'
 button3Link: '#services'
 question: Did you know?
