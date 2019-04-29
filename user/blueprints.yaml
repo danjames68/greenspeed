@@ -1,0 +1,13 @@
+name: GreenSpeed Site
+version: 1.1.2
+description: A fast flat-file site based on Hola theme and built with Grav. 
+icon:  id-card-o
+author:
+  name: Danjames68  
+  email: danjames68@me.com
+  url: https://greenspeed.co.uk
+homepage: https://devlom.com/en/blog/hola-stylish-grav-theme
+demo: http://demo.devlom.com/grav/hola/
+keywords: hola, theme, styleshout, vcard, devlom, responsive, html5, css3, skeleton
+bugs: https://github.com/devlom/grav-skeleton-hola/issues
+license: MIT

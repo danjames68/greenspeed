@@ -1,0 +1,24 @@
+title: Fast Eco-Friendly Websites based in Energy Efficient UK based servers
+author:
+  name: GreenSpeed
+  email: 'danjames68@me.com'
+metadata:
+    description: 'GreenSpeed is a small company dedicated to building fast eco-friendly websites ready to be run on our energy efficient severs based in the UK'
+taxonomies: [category,tag,author]
+social:
+    -
+        socialIconClass: 'fa fa-envelope'
+        socialIconText: email
+        socialIconLink: 'mailto: info@greenspeed.co.uk'
+    -
+        socialIconClass: 'fa fa-twitter'
+        socialIconText: Twitter
+        socialIconLink: 'https://twitter.com/greenspeedstudio'
+        
+contact:
+    phoneTitle: Phone
+    phonePhone: 'Uk mobile: 07510 047761'
+    emailTitle: Email
+    emailAddress: 'info@greenspeedstudio.co.uk'
+    addressTitle: Address
+    addressDetails: "Unit 5, 30 Friern Park. North London, N12 9DA"

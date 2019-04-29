@@ -1,0 +1,35 @@
+<section id="{% if page.header.redirect %}{{ page.header.redirect }}{% else %}{{ page.menu|lower }}{% endif %}"
+         class="s-basic {{ page.header.sectionBackground }} target-section">
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>{{ page.header.smallTitle }}</h3>
+            <h1>{{ page.title }}</h1>
+            <p class="lead">{{ page.content|striptags }}</p>
+        </div>
+    </div>
+    {% for column in page.header.row %}
+
+       
+            <div class="row basic-content one-column">
+                <div class="col-eight tab-full">
+                    <h3>{{ column.firstColumnTitle }}</h3>
+                    <p class="lead">{{ column.firstColumnContent|markdown }}
+                    </p>
+                </div>
+            </div>
+       
+
+    {% endfor %}
+
+    <!-- end basic-content -->
+
+    <div class="service-content__buttons">
+                {% if page.header.button1Text %}
+                    <a href="{{ page.header.button1Link }}" class="smoothscroll btn btn--stroke">
+                        {{ page.header.button1Text }}
+                    </a>
+                {% endif %}   
+     </div>
+
+</section>
+<!-- end basic -->
